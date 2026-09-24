@@ -1,7 +1,7 @@
-function Header() {
+function Header({ titulo }) {
   return (
     <header className="site-header">
-      <h1>Portafolio TP 1</h1>
+      <h1>{titulo}</h1>
 
       <nav className="site-nav">
         <a href="#inicio">Inicio</a>

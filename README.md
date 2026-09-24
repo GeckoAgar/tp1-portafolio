@@ -1,16 +1,75 @@
-# React + Vite
+# Portfolio personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Datos academicos
 
-Currently, two official plugins are available:
+- Nombre: Moretta Gerardo Agustin
+- Comision: 7
+- Materia: Programacion IV
+- Carrera: Tecnicatura en Programacion
+- Universidad: Universidad Tecnologica Nacional (UTN)
+- Facultad: Facultad Regional Tucuman (FRT)
+- Trabajo practico 1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hola, soy Agustin Moretta. Este es mi portfolio personal, realizado como parte del TP 1 de la Tecnicatura en Programacion en la FRT - UTN.
 
-## React Compiler
+La pagina me sirve para presentar quien soy, las tecnologias que estoy aprendiendo y algunos proyectos con los que practico desarrollo web.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML y CSS
+- Git y GitHub
+- Express
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Que incluye
+
+- Informacion personal y profesional.
+- Secciones de habilidades y proyectos.
+- Navegacion entre las distintas partes de la pagina.
+- Componentes reutilizables para el header, hero, contenido y footer.
+- Uso de props para enviar datos entre componentes.
+- Renderizado de habilidades y proyectos con `map()`.
+- Boton "Ver mas" con `useState` y renderizado condicional.
+- Enlace de contacto por email.
+
+## Como ejecutar el proyecto
+
+Primero hay que instalar las dependencias:
+
+```bash
+npm install
+```
+
+Para iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Tambien se puede crear una version de produccion y revisar el codigo con:
+
+```bash
+npm run build
+npm run lint
+```
+
+## Estructura principal
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── index.css
+└── components/
+    ├── About.jsx
+    ├── Footer.jsx
+    ├── Header.jsx
+    ├── Hero.jsx
+    ├── Projects.jsx
+    └── Skills.jsx
+```
+
+## Contacto
+
+Email: [agustinmoretta2016@gmail.com](mailto:agustinmoretta2016@gmail.com)

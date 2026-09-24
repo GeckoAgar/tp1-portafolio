@@ -1,6 +1,4 @@
-function Skills() {
-  const habilidades = ["HTML", "CSS", "JavaScript", "React"];
-
+function Skills({ habilidades }) {
   return (
     <section id="habilidades" className="skills-section section">
       <div className="section-heading">
