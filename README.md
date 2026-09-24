@@ -10,7 +10,9 @@
 - Facultad: Facultad Regional Tucuman (FRT)
 - Trabajo practico 1
 
-Hola, soy Agustin Moretta. Este es mi portfolio personal, realizado como parte del TP 1 de la Tecnicatura en Programacion en la FRT - UTN.
+## Descripcion del proyecto
+
+Este es mi portfolio personal, realizado como parte del TP 1 de la Tecnicatura en Programacion en la FRT - UTN.
 
 La pagina me sirve para presentar quien soy, las tecnologias que estoy aprendiendo y algunos proyectos con los que practico desarrollo web.
 
@@ -35,6 +37,12 @@ La pagina me sirve para presentar quien soy, las tecnologias que estoy aprendien
 
 ## Como ejecutar el proyecto
 
+Entrar en la carpeta del proyecto:
+
+```bash
+cd tp1-portafolio
+```
+
 Primero hay que instalar las dependencias:
 
 ```bash
@@ -45,13 +53,6 @@ Para iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-```
-
-Tambien se puede crear una version de produccion y revisar el codigo con:
-
-```bash
-npm run build
-npm run lint
 ```
 
 ## Estructura principal
@@ -69,6 +70,10 @@ src/
     ├── Projects.jsx
     └── Skills.jsx
 ```
+
+## Repositorio
+
+[Ver el repositorio en GitHub](https://github.com/GeckoAgar/tp1-portafolio)
 
 ## Contacto
 
