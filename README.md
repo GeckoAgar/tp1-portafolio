@@ -22,7 +22,6 @@ La pagina me sirve para presentar quien soy, las tecnologias que estoy aprendien
 - JavaScript
 - HTML y CSS
 - Git y GitHub
-- Express
 
 ## Que incluye
 
