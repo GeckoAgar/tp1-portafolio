@@ -1,16 +1,13 @@
 function Skills() {
-  const habilidades = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React"
-  ];
+  const habilidades = ["HTML", "CSS", "JavaScript", "React"];
 
   return (
-    <section id="habilidades">
-      <h2>Habilidades</h2>
+    <section id="habilidades" className="skills-section section">
+      <div className="section-heading">
+        <h2>Habilidades</h2>
+      </div>
 
-      <ul>
+      <ul className="skills-grid">
         {habilidades.map((habilidad) => (
           <li key={habilidad}>{habilidad}</li>
         ))}

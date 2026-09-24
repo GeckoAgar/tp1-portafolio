@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <header>
-      <h1>Agust</h1>
+    <header className="site-header">
+      <h1>Portafolio TP 1</h1>
 
-      <nav>
+      <nav className="site-nav">
         <a href="#inicio">Inicio</a>
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#habilidades">Habilidades</a>
@@ -13,4 +13,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;
