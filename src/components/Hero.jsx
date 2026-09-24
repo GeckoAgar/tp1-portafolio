@@ -2,7 +2,6 @@ function Hero() {
   return (
     <section id="inicio" className="section hero-section">
       <div className="hero-copy">
-        <p className="eyebrow">Hola, soy</p>
 
         <h2>Agustin Moretta</h2>
 
@@ -24,15 +23,6 @@ function Hero() {
           </a>
         </div>
       </div>
-
-      <aside className="hero-card">
-        <span className="card-label">Enfoque</span>
-        <ul>
-          <li>HTML y CSS para interfaces claras y accesibles.</li>
-          <li>JavaScript para lógica y dinamismo.</li>
-          <li>React para construir componentes reutilizables.</li>
-        </ul>
-      </aside>
     </section>
   );
 }

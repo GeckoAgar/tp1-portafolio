@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
-  const habilidades = ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Express"];
+  const habilidades = ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Express", "C#", "SQL"];
 
   const proyectos = [
     {
@@ -16,11 +16,17 @@ function App() {
       technologies: "React, JavaScript, CSS, Git, GitHub",
     },
     {
-      title: "Sistema de gestión",
+      title: "Sistema de Callcenter",
       description:
-        "Proyecto académico para gestionar información y practicar programación.",
-      technologies: "JavaScript, HTML, CSS",
+        "Proyecto desarrollado para gestionar y organizar información relacionada con llamadas y usuarios de un sistema de atención.",
+      technologies: "JavaScript, HTML, CSS, SQL",
     },
+    {
+      title: "Sistema CRUD",
+      description:
+        "Aplicación desarrollada para practicar las operaciones de crear, consultar, modificar y eliminar registros utilizando una base de datos.",
+      technologies: "C#, SQL Server Express",
+  },
   ];
 
   return (
